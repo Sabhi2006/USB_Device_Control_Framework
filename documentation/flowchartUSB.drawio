@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="5CkZWXvPebqoF1w1tmhG">
+    <mxGraphModel dx="1500" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB Device&lt;div&gt;Connect / Disconnect &amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="340" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB Event Monitor&lt;div&gt;Python / Windows&lt;/div&gt;&lt;div&gt;PnP / WMI&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="340" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Device Identification&lt;div&gt;VID / PID/ Serial / ID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="340" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Authorization Engine&lt;div&gt;Allowlist / Blocklist&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="340" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ALLOW&lt;/div&gt;&lt;div&gt;File Activity Monitoring&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99" width="80" x="270" y="611" as="geometry" />
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BLOCK&lt;div&gt;Disable&lt;/div&gt;&lt;div&gt;Device&lt;/div&gt;" vertex="1">
+          <mxGeometry height="99" width="80" x="450" y="611" as="geometry" />
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Security Logger&lt;div&gt;Timestamp / User/ Device&lt;/div&gt;&lt;div&gt;Action / File Activity&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="320" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Report Generator&lt;div&gt;CSV /Security Report&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="320" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-12" edge="1" parent="1" source="_TRaxGWQUvxBgDx9klnw-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_TRaxGWQUvxBgDx9klnw-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-13" edge="1" parent="1" source="_TRaxGWQUvxBgDx9klnw-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_TRaxGWQUvxBgDx9klnw-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-14" edge="1" parent="1" source="_TRaxGWQUvxBgDx9klnw-6" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_TRaxGWQUvxBgDx9klnw-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="590" as="sourcePoint" />
+            <mxPoint x="490" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_TRaxGWQUvxBgDx9klnw-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="590" as="sourcePoint" />
+            <mxPoint x="390" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_TRaxGWQUvxBgDx9klnw-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="590" as="sourcePoint" />
+            <mxPoint x="390" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-18" edge="1" parent="1" source="_TRaxGWQUvxBgDx9klnw-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="650" as="sourcePoint" />
+            <mxPoint x="400" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="305" y="840" as="sourcePoint" />
+            <mxPoint x="495" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-20" edge="1" parent="1" source="_TRaxGWQUvxBgDx9klnw-8" style="endArrow=classic;html=1;rounded=0;exitX=0.35;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="850" as="sourcePoint" />
+            <mxPoint x="298" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-21" edge="1" parent="1" source="_TRaxGWQUvxBgDx9klnw-9" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="850" as="sourcePoint" />
+            <mxPoint x="490" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-22" edge="1" parent="1" source="_TRaxGWQUvxBgDx9klnw-10" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_TRaxGWQUvxBgDx9klnw-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="840" as="sourcePoint" />
+            <mxPoint x="440" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_TRaxGWQUvxBgDx9klnw-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="840" as="sourcePoint" />
+            <mxPoint x="440" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="File Activity Monitor&lt;div&gt;Create / Modify/ Delete&lt;/div&gt;&lt;div&gt;File Transfer Audit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="230" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="_TRaxGWQUvxBgDx9klnw-25" edge="1" parent="1" source="_TRaxGWQUvxBgDx9klnw-24" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="840" as="sourcePoint" />
+            <mxPoint x="310" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
