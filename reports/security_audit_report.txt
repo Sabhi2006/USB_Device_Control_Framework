@@ -2,18 +2,18 @@
 USB DEVICE CONTROL FRAMEWORK
 SECURITY AUDIT REPORT
 ============================================================
-Generated: 2026-09-06 11:04:04
+Generated: 2026-09-06 11:32:51
 
 EVENT SUMMARY
 ------------------------------------------------------------
 USB Connected:              7
 USB Disconnected:           7
-Files Created:              2
-Files Modified:             1
-Files Deleted:              1
-Integrity Baselines:        1
-Integrity Checks Passed:    1
-Integrity Violations:       1
+Files Created:              3
+Files Modified:             2
+Files Deleted:              2
+Integrity Baselines:        2
+Integrity Checks Passed:    2
+Integrity Violations:       2
 
 SECURITY STATUS
 ------------------------------------------------------------
@@ -21,14 +21,14 @@ SECURITY STATUS
 
 RECENT SECURITY EVENTS
 ------------------------------------------------------------
-2026-09-05 10:36:37 | USB_CONNECTED | Status: OK | Class: HIDClass | Device: USB Input Device | InstanceId: USB\VID_258A&PID_002A&MI_00\7&37F796AE&0&0000
-2026-09-05 10:36:38 | USB_CONNECTED | Status: OK | Class: HIDClass | Device: USB Input Device | InstanceId: USB\VID_258A&PID_002A&MI_01\7&37F796AE&0&0001
-2026-09-05 10:36:38 | USB_CONNECTED | Status: OK | Class: USB | Device: USB Composite Device | InstanceId: USB\VID_258A&PID_002A\6&15F17D69&0&1
-2026-09-05 11:43:20 | FILE_CREATED | Path: test_usb\test_file.txt
-2026-09-05 11:43:38 | FILE_MODIFIED | Path: test_usb\test_file.txt
-2026-09-05 11:43:54 | FILE_DELETED | Path: test_usb\test_file.txt
-2026-09-05 11:51:23 | FILE_INTEGRITY_BASELINE_CREATED | Path: test_usb\integrity_test.txt | NewHash: e592570e7251ba2c242f99c20dd8d69558ed9488a4802e277ac4c7245fe998b0
-2026-09-05 11:51:23 | FILE_INTEGRITY_CHECK_PASSED | Path: test_usb\integrity_test.txt | NewHash: e592570e7251ba2c242f99c20dd8d69558ed9488a4802e277ac4c7245fe998b0
-2026-09-05 11:51:23 | FILE_INTEGRITY_MODIFIED | Path: test_usb\integrity_test.txt | OldHash: e592570e7251ba2c242f99c20dd8d69558ed9488a4802e277ac4c7245fe998b0 | NewHash: 2034b3040c7f482ec9c49692fb77d1099e3c86138db97e2f91f892dc2185c7a7
-2026-09-05 11:51:24 | FILE_CREATED | Path: test_usb\integrity_test.txt
+2026-09-06 11:15:14 | ALERT | Type: UNAUTHORIZED_USB | Message: Unauthorized device detected: {'vid': '1234', 'pid': '5678'}
+2026-09-06 11:15:14 | ALERT | Type: FILE_INTEGRITY_VIOLATION | Message: File integrity violation detected: test_usb/integrity_test.txt
+2026-09-06 11:32:50 | ALERT | Type: UNAUTHORIZED_USB | Message: Unauthorized device detected: {'vid': '1234', 'pid': '5678'}
+2026-09-06 11:32:51 | FILE_CREATED | Path: test_usb\integration_test.txt
+2026-09-06 11:32:51 | FILE_MODIFIED | Path: test_usb\integration_test.txt
+2026-09-06 11:32:51 | FILE_DELETED | Path: test_usb\integration_test.txt
+2026-09-06 11:32:51 | FILE_INTEGRITY_BASELINE_CREATED | Path: test_usb\integrity_test.txt | NewHash: 3949e2daad0ba297363644e75de69a60f35024d5004d0b5b02a31626fb4254da
+2026-09-06 11:32:51 | FILE_INTEGRITY_CHECK_PASSED | Path: test_usb\integrity_test.txt | NewHash: 3949e2daad0ba297363644e75de69a60f35024d5004d0b5b02a31626fb4254da
+2026-09-06 11:32:51 | FILE_INTEGRITY_MODIFIED | Path: test_usb\integrity_test.txt | OldHash: 3949e2daad0ba297363644e75de69a60f35024d5004d0b5b02a31626fb4254da | NewHash: f1f6dad130c6e42bac28c51fffb1954d3c5a62355b45769c42fda5b7745db53f
+2026-09-06 11:32:51 | ALERT | Type: FILE_INTEGRITY_VIOLATION | Message: File integrity violation detected: test_usb\integrity_test.txt
 ============================================================
