@@ -19,3 +19,5 @@
 2026-09-05 11:51:23 | FILE_INTEGRITY_CHECK_PASSED | Path: test_usb\integrity_test.txt | NewHash: e592570e7251ba2c242f99c20dd8d69558ed9488a4802e277ac4c7245fe998b0
 2026-09-05 11:51:23 | FILE_INTEGRITY_MODIFIED | Path: test_usb\integrity_test.txt | OldHash: e592570e7251ba2c242f99c20dd8d69558ed9488a4802e277ac4c7245fe998b0 | NewHash: 2034b3040c7f482ec9c49692fb77d1099e3c86138db97e2f91f892dc2185c7a7
 2026-09-05 11:51:24 | FILE_CREATED | Path: test_usb\integrity_test.txt
+2026-09-06 11:15:14 | ALERT | Type: UNAUTHORIZED_USB | Message: Unauthorized device detected: {'vid': '1234', 'pid': '5678'}
+2026-09-06 11:15:14 | ALERT | Type: FILE_INTEGRITY_VIOLATION | Message: File integrity violation detected: test_usb/integrity_test.txt
